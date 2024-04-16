@@ -78,7 +78,9 @@ class _TaskScreenState extends State<TaskScreen> {
       body: Column(
         children: [
           Container(
-            margin: const EdgeInsets.only(bottom: 80),
+            margin: const EdgeInsets.only(
+              bottom: 80,
+            ),
           ),
           Expanded(
             child: ListView.builder(
